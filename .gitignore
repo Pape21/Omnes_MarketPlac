@@ -1,0 +1,35 @@
+# Fichiers systèmes (Windows, Linux, macOS)
+.DS_Store
+Thumbs.db
+
+# Fichiers d'environnement ou de configuration sensibles
+.env
+config.php
+*.log
+
+# Dossiers générés automatiquement (composer, node, etc.)
+vendor/
+node_modules/
+
+# Fichiers temporaires ou caches
+.cache
+tmp/
+temp/
+
+# Ignorer les fichiers uploadés par utilisateurs
+uploads/
+images/uploads/
+
+# Ignorer les sessions PHP
+sess_*
+
+# Ignorer des IDE comme VSCode ou PhpStorm
+.idea/
+.vscode/
+
+# Fichiers compressés ou de backup
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.bak
