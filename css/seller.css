@@ -1,0 +1,87 @@
+/* Styles pour l'interface vendeur */
+
+/* Sidebar */
+#sidebar {
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+}
+
+#sidebar .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#sidebar .nav-link:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#sidebar .nav-link.active {
+  color: #fff;
+  background-color: var(--primary); /* Mise à jour pour utiliser la variable de couleur primaire */
+}
+
+#sidebar .nav-link i {
+  margin-right: 10px;
+}
+
+/* Cards */
+.border-left-primary {
+  border-left: 4px solid var(--primary) !important; /* Mise à jour pour utiliser la variable de couleur primaire */
+}
+
+.border-left-success {
+  border-left: 4px solid var(--success) !important;
+}
+
+.border-left-info {
+  border-left: 4px solid var(--accent) !important;
+}
+
+.border-left-warning {
+  border-left: 4px solid var(--warning) !important;
+}
+
+.border-left-danger {
+  border-left: 4px solid var(--danger) !important;
+}
+
+/* Tables */
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table th {
+  background-color: #f8f9fc;
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Negotiation items */
+.list-group-item {
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #sidebar {
+    min-height: auto;
+    position: relative;
+  }
+}
+
